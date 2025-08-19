@@ -1,0 +1,38 @@
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Editors/IDE ---
+.vscode/
+.idea/
+
+# --- Environment secrets (if you ever add them) ---
+.env
+.env.*
+!.env.example
+
+# --- Logs ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# --- Build output (if you add a build step later) ---
+dist/
+build/
+tmp/
+.cache/
+*.cache
+
+# --- Node tooling (optional future) ---
+node_modules/
+
+# --- Hosting/platform (optional) ---
+.netlify/
+.vercel/
+
+# --- Tests/coverage (optional) ---
+coverage/
+
+# (Optional) If you generate source maps and don't want them in Git, uncomment:
+# *.map

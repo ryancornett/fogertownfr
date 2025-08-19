@@ -1,0 +1,10 @@
+# robots.txt for fogertownfr.org
+User-agent: *
+Allow: /
+
+# Disallow any private/admin paths if you add them later:
+# Disallow: /admin/
+# Disallow: /tmp/
+
+# Point crawlers to your sitemap:
+Sitemap: https://fogertownfr.org/sitemap.xml
